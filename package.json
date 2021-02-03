@@ -14,7 +14,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "jest",
+    "test:watch": "npm test -- --watch",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -34,5 +35,6 @@
   },
   "devDependencies": {
     "deep-freeze": "0.0.1"
-  }
+  },
+  "type": "module"
 }
